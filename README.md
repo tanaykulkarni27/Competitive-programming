@@ -1,10 +1,4 @@
 # Python-Coding
-<script>
-function fn(){
-  document.getElementById("hi").innerHTML = "Paragraph changed!";
-  }
-</script>
-
 contains python codes 
 Contains codes that i used in Kickstart competitions
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/sequence.py">Sequence.Py</a></h1>
