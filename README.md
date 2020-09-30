@@ -8,3 +8,5 @@ Contains codes that i used in Kickstart competitions
     6 3 # 6 length of list and 3 is length of sequence (sequence will be generated automatically) <br>
     3 2 1 3 2 1 # '3 2 1 3 2 1' is the list in which i have to check the sequence
     </p>
+<h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Subsets.py">Subsets.Py</a></h1>
+<p> finds all possible non empty subset from a list</p>
