@@ -1,7 +1,7 @@
 # Python-Coding
 <script>
 function fn(){
-  
+  alert("Hello World")
   }
 </script>
 
