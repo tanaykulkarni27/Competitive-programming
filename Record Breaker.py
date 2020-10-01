@@ -12,6 +12,8 @@ class case:
             for j in range(i-1,len(self.A)-1):
                 if self.A[j+1]-self.A[j] == varA:
                     counter = counter+1
+                elif self.A[j+1]-self.A[j] != varA:
+                    break;
             if counter>1:
                 lengths.append(counter)
         if len(lengths)>0:
