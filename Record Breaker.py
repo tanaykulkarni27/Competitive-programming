@@ -1,24 +1,26 @@
 class case:
-    def __init__(self,N,Ni):
-        self.N = N
-        self.Ni = Ni
+    def __init__(self,A):
+        self.A = A
     def get_result(self):
-        counter = 0;k = False;i=0;
-        for i in range(1,len(self.Ni)):
-            if  self.Ni[i]>self.Ni[i-1]:
-                chk = 0
-                for j in range(i):
-                    if self.Ni[i]>self.Ni[j]:
-                        chk  =  chk+1
-                    else:
-                        break;
-                if chk == i:
+        counter = 1
+        lengths = []
+        for i in range(1,len(self.A)-1):
+          varA = self.A[i] - self.A[i-1]
+          VarB = self.A[i+1] - self.A[i]
+          if varA  == VarB:
+            counter = 1
+            for j in range(i-1,len(self.A)-1):
+                if self.A[j+1]-self.A[j] == varA:
                     counter = counter+1
-
-        return counter
+            if counter>1:
+                lengths.append(counter)
+        if len(lengths)>0:
+            return max(lengths)
+        else:
+            return 0
 Case = int(input())
-N  = int(input())
-Ni = [ int(i) for i in input().split(sep=' ') ]
-obj = case(N,Ni)
-ans = obj.get_result()
-print('Case #{}: {}'.format(Case,ans))
+N = int(input())
+A = [int(i) for i in input().split()]
+if N == len(A):
+    ans = case(A).get_result()
+    print('Case #{}: {}'.format(Case,ans))
