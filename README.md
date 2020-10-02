@@ -24,7 +24,7 @@ Sarasvati has an array of N non-negative integers. The i-th integer of the array
 <p>There are N people numbered from 1 to N, standing in a queue to withdraw money from an ATM. The queue is formed in ascending order of their number.<br> The person numbered i wants to withdraw amount Ai. The maximum amount a person can withdraw at a time is X. If they need more<br> money than X, they need to go stand at the end of the queue and wait for their turn in line. A person leaves the queue once they have withdrawn the<br> required amount.
 <br>
 You need to find the order in which all the people leave the queue.</p>
-<h1><a href="">Judging System</a></h1>
+<h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Judging%20System.py">Judging System</a></h1>
 <p>
 This problem is a well-known classic; we present it primarily as an opportunity for you to try out the interactive judging system.<br>
 
