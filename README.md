@@ -40,3 +40,13 @@ increase the skill rating of any student by 1.
 
 The competition season is starting very soon (in fact, the first match has<br> already started!), so you'd like to find the minimum number of hours of coaching you need to give before you are able to pick a fair team.
 </p>
+<h1><a href="">Bus Routes.py</a></h1>
+<p>
+Bucket is planning to make a very long journey across the countryside by bus. Her journey consists of N bus routes, numbered from 1 to N in the<br>
+order she must take them. The buses themselves are very fast, but do not run often. The i-th bus route only runs every Xi days.<br>
+More specifically, she can only take the i-th bus on day Xi, 2Xi, 3Xi and so on. Since the buses are very fast, she can take multiple buses on the same day.<br>
+Bucket must finish her journey by day D, but she would like to start the journey as late as possible. What is the latest day she could take the first bus,<br>
+and still finish her journey by day D?
+<br>
+It is guaranteed that it is possible for Bucket to finish her journey by day D.
+</p>
