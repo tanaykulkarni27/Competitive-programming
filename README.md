@@ -40,7 +40,7 @@ increase the skill rating of any student by 1.
 
 The competition season is starting very soon (in fact, the first match has<br> already started!), so you'd like to find the minimum number of hours of coaching you need to give before you are able to pick a fair team.
 </p>
-<h1><a href="">Bus Routes.py</a></h1>
+<h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Bus%20Routes.py">Bus Routes.py</a></h1>
 <p>
 Bucket is planning to make a very long journey across the countryside by bus. Her journey consists of N bus routes, numbered from 1 to N in the<br>
 order she must take them. The buses themselves are very fast, but do not run often. The i-th bus route only runs every Xi days.<br>
