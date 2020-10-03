@@ -30,7 +30,7 @@ This problem is a well-known classic; we present it primarily as an opportunity 
 
 We are thinking of an integer P within the range (A,B] — that is, A < P ≤ B.<br> You have N tries to guess our number. After each guess that is not correct,<br>we will tell you whether P is higher or lower than your guess.
 </p>
-<h1><a href="">Training.py</a></h1>
+<h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/training.py">Training.py</a></h1>
 <p>
 As the football coach at your local school, you have been tasked with picking a team of exactly P students to represent your school. There are N<br>
 students for you to pick from. The i-th student has a skill rating Si, which is a positive integer indicating how skilled they are.<br>
