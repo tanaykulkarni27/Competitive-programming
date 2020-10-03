@@ -16,7 +16,7 @@ The number of visitors on the day is strictly larger than the number of visitors
 Either it is the last day, or the number of visitors on the day is strictly larger than the number of visitors on the following day.<br>
 Note that the very first day could be a record breaking day!<br>
 Please help Isyana find out the number of record breaking days.</p>
-<h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Longest%20Arrithmatic.py">Longest Arrithmatic.py</a></h1>
+<h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Longest%20Arrithmatic.py">Longest Arithmatic.py</a></h1>
 <p>An arithmetic array is an array that contains at least two integers and the differences between consecutive integers are equal.<br> For example, [9, 10], [3, 3, 3], and [9, 7, 5, 3] <br>are arithmetic arrays, while [1, 3, 3, 7], [2, 1, 2], and [1, 2, 4] are not arithmetic arrays.<br>
 
 Sarasvati has an array of N non-negative integers. The i-th integer of the array is Ai.<br> She wants to choose a contiguous arithmetic subarray <br>from her array that has the maximum length.<br>Please help her to determine the length of the longest contiguous arithmetic subarray.</p>
