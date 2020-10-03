@@ -30,3 +30,13 @@ This problem is a well-known classic; we present it primarily as an opportunity 
 
 We are thinking of an integer P within the range (A,B] — that is, A < P ≤ B.<br> You have N tries to guess our number. After each guess that is not correct,<br>we will tell you whether P is higher or lower than your guess.
 </p>
+<h1><a href="">Training.py</a></h1>
+<p>
+As the football coach at your local school, you have been tasked with picking a team of exactly P students to represent your school. There are N<br>
+students for you to pick from. The i-th student has a skill rating Si, which is a positive integer indicating how skilled they are.<br>
+You have decided that a team is fair if it has exactly P students on it and they all have the same skill rating. That way, everyone plays as a team.<br>
+Initially, it might not be possible to pick a fair team, so you will give some of the students one-on-one coaching. It takes one hour of coaching to<br>
+increase the skill rating of any student by 1.
+
+The competition season is starting very soon (in fact, the first match has<br> already started!), so you'd like to find the minimum number of hours of coaching you need to give before you are able to pick a fair team.
+</p>
