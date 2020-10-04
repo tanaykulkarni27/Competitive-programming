@@ -1,6 +1,12 @@
 # Python-Coding
 contains python codes 
 Contains codes that i used in Kickstart competitions
+<h1><a href="">Allocation.py</a><h1>
+<p>
+There are N houses for sale. The i-th house costs Ai dollars to buy. You have a budget of B dollars to spend.
+<br>
+What is the maximum number of houses you can buy?
+</p>
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/sequence.py">Sequence.Py</a></h1>
 <p>how to find how many time sequence present in the list</p> 
 <p id="vis" style="visibility: hidden;">for Example:<br>
