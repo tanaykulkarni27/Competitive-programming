@@ -1,11 +1,11 @@
-    def add(subset,set):
-        complete = []
-        if len(subset) == len(set):
-            return complete
-        else:
-            complete.append(subset)
-            return complete
-    def get_subsets(set):
+def add(subset,set):
+    complete = []
+    if len(subset) == len(set):
+        return complete
+    else:
+        complete.append(subset)
+        return complete
+def get_subsets(set):
     N = len(set)
     for i in range((1<<N)):
         subset = []
