@@ -56,3 +56,11 @@ and still finish her journey by day D?
 <br>
 It is guaranteed that it is possible for Bucket to finish her journey by day D.
 </p>
+<h1><a href="https://github.com/tanaykulkarni27/Python-Coding/tree/master">Yoghurt.py</a></h1>
+<p>
+Yogurt can be a nutritious part of an appetizer, main course, or dessert, but it must be consumed before it expires, and it might expire quickly! Moreover,<br>
+different cups of yogurt might expire on different days.<br>
+Lucy loves yogurt, and she has just bought N cups of yogurt, but she is worried that she might not be able to consume all of them before they expire.<br>
+The i-th cup of yogurt will expire Ai days from today, and a cup of yogurt cannot be consumed on the day it expires, or on any day after that.<br>
+As much as Lucy loves yogurt, she can still only consume at most K cups of yogurt each day. What is the largest number of cups of yogurt that <br>
+she can consume, starting from today?</p>
