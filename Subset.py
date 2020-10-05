@@ -1,15 +1,20 @@
-def get_subsets(set):
-    subset = [[]]
-    for i in range(len(set)):
-        copy = subset[:]
-        new  = int(set[i])
-        for j in range(len(subset)):
-             subset[j] = subset[j]+[new]
-        subset = subset+copy
-    for t in range(len(subset)):
-        if len(subset[t]) == 0:
-            subset.remove(subset[t])        
-    return subset
+    def add(subset,set):
+        complete = []
+        if len(subset) == len(set):
+            return complete
+        else:
+            complete.append(subset)
+            return complete
+    def get_subsets(set):
+    N = len(set)
+    for i in range((1<<N)):
+        subset = []
+        for j in range(N):
+            if 1<<j & i:
+                subset.append(set[j])
+        ans = add(subset,set)        
+    if len(ans)>=1<<N
+        return ans
 set = input('Enter Elements of set : ').split(sep=' ')
 subset = get_subsets(set)
 print(subset)
