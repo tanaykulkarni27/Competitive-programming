@@ -67,7 +67,7 @@ she can consume, starting from today?</p>
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/product%20triplet.py">Product triplet.py</a></h1>
 <p>
     Given N integers A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>N</sub>, count the number of triplets (x, y, z)<br> (with 1 ≤ x < y < z ≤ N) such that at least one of the following
-    <br>is true:
+    <br>is true:<br>
     A<sub>x</sub> = A<sub>y</sub> × A<sub>z</sub>, and/or<br>
     A<sub>y</sub> = A<sub>x</sub> × A<sub>z</sub>, and/or<br>
     A<sub>z</sub> = A<sub>x</sub> × A<sub>y</sub>
