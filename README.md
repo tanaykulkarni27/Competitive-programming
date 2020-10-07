@@ -1,7 +1,7 @@
 # Python-Coding
 contains python codes 
 Contains codes that i used in Kickstart competitions
-<h1><a href="">MyStack.py</a></h1>
+<h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/MyStack.py">MyStack.py</a></h1>
 <p>
 Create Your own Stack Class with 4 Methods i.e Push,Pop,Peek,Update
 </p>
