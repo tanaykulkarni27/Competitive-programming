@@ -82,5 +82,6 @@ she can consume, starting from today?</p>
 <p>
 Professor Shekhu has another problem for Akki today. He has given him three<br>
 positive integers A, N and P and wants him to calculate the remainder when AN! is<br>
-divided by P. As usual, N! denotes the product of the first N positive integers
+divided by P. As usual, N! denotes the product of the first N positive integers<br>
+<ins>Find out put in 40 seconds</ins>    
 </p>
