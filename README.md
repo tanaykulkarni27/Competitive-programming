@@ -5,7 +5,10 @@ Contains codes that i used in Kickstart competitions
 <p>
 Create Your own Stack Class with 4 Methods i.e Push,Pop,Peek,Update
 </p>
-
+<h1> <a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Binary%20Search.py">Binary search.py</a></h1>
+<p>
+Write a code for binary search using recursion
+</p>
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Allocation.py">Allocation.py</a></h1>
 <p>
 There are N houses for sale. The i-th house costs Ai dollars to buy. You have a budget of B dollars to spend.
