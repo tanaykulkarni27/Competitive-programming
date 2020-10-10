@@ -33,9 +33,9 @@ Please help Isyana find out the number of record breaking days.</p>
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Longest%20Arrithmatic.py">Longest Arithmatic.py</a></h1>
 <p>An arithmetic array is an array that contains at least two integers and the differences between consecutive integers are equal.<br> For example, [9, 10], [3, 3, 3], and [9, 7, 5, 3] <br>are arithmetic arrays, while [1, 3, 3, 7], [2, 1, 2], and [1, 2, 4] are not arithmetic arrays.<br>
 
-Sarasvati has an array of N non-negative integers. The i-th integer of the array is Ai.<br> She wants to choose a contiguous arithmetic subarray <br>from her array that has the maximum length.<br>Please help her to determine the length of the longest contiguous arithmetic subarray.</p>
+Sarasvati has an array of N non-negative integers. The i-th integer of the array is A<sub>i</sub>.<br> She wants to choose a contiguous arithmetic subarray <br>from her array that has the maximum length.<br>Please help her to determine the length of the longest contiguous arithmetic subarray.</p>
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Atm%20Queue.py">Atm Queue</a></h1>
-<p>There are N people numbered from 1 to N, standing in a queue to withdraw money from an ATM. The queue is formed in ascending order of their number.<br> The person numbered i wants to withdraw amount Ai. The maximum amount a person can withdraw at a time is X. If they need more<br> money than X, they need to go stand at the end of the queue and wait for their turn in line. A person leaves the queue once they have withdrawn the<br> required amount.
+<p>There are N people numbered from 1 to N, standing in a queue to withdraw money from an ATM. The queue is formed in ascending order of their number.<br> The person numbered i wants to withdraw amount A<sub>i</sub>. The maximum amount a person can withdraw at a time is X. If they need more<br> money than X, they need to go stand at the end of the queue and wait for their turn in line. A person leaves the queue once they have withdrawn the<br> required amount.
 <br>
 You need to find the order in which all the people leave the queue.</p>
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Judging%20System.py">Judging System</a></h1>
@@ -47,7 +47,7 @@ We are thinking of an integer P within the range (A,B] — that is, A < P ≤ B.
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/training.py">Training.py</a></h1>
 <p>
 As the football coach at your local school, you have been tasked with picking a team of exactly P students to represent your school. There are N<br>
-students for you to pick from. The i-th student has a skill rating Si, which is a positive integer indicating how skilled they are.<br>
+students for you to pick from. The i-th student has a skill rating S<sub>i</sub>, which is a positive integer indicating how skilled they are.<br>
 You have decided that a team is fair if it has exactly P students on it and they all have the same skill rating. That way, everyone plays as a team.<br>
 Initially, it might not be possible to pick a fair team, so you will give some of the students one-on-one coaching. It takes one hour of coaching to<br>
 increase the skill rating of any student by 1.
