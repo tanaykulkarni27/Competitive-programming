@@ -84,7 +84,7 @@ she can consume, starting from today?</p>
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/create/master/Huge%20Numbers.py">Huge Numbers.py</a></h1>
 <p>
 Professor Shekhu has another problem for Akki today. He has given him three<br>
-    positive integers A, N and P and wants him to calculate the remainder when A<sup>N!</sub> is<br>
+    positive integers A, N and P and wants him to calculate the remainder when A<sup>N!</sup> is<br>
 divided by P. As usual, N! denotes the product of the first N positive integers<br>
 (<ins>Find output in 40 seconds</ins>)    
 </p>
