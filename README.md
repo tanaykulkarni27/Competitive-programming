@@ -88,3 +88,9 @@ positive integers A, N and P and wants him to calculate the remainder when AN! i
 divided by P. As usual, N! denotes the product of the first N positive integers<br>
 (<ins>Find output in 40 seconds</ins>)    
 </p>
+<h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Book%20Reading.py">Book Reading .py</a></h1>
+<p>
+Supervin is a librarian handling an ancient book with N pages, numbered from 1 to N.<br>
+Since the book is too old, unfortunately M pages are torn out: page number P<sub>1</sub>, P<sub>2</sub>, ..., P<sub>M</sub>.
+Today, there are Q lazy readers who are interested in reading the ancient book. Since they are lazy, each reader will not necessarily read all the pages. Instead, the i-th reader will only read the pages that are numbered multiples of R<sub>i</sub> and not torn out. Supervin would like to know the sum of the number of pages read by each reader.
+</p>
