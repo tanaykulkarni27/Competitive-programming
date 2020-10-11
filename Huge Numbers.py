@@ -4,17 +4,20 @@ class case:
         self.N = N
         self.P = P
         self.tmp = 1
+        self.memo = {}
     def find_ans(self,A,N):
         if N > self.N:
             return self.tmp%self.P
-        self.tmp = pow(A,N)
+        self.tmp = self.pow(A,N,self.memo)
         return self.find_ans(self.tmp,N+1)
-
-    def pow (self,A,n):
+    def pow(self,A,n,memo):
         if n == 0:
             return 1
+        elif memo.get(n)!=None:
+            return memo.get(n)
         else:
-            a = A* pow(A,n-1)
+            a = A* self.pow(A,n-1,memo)
+            memo[n]=a
             return a
     def get_result(self):
         final = self.find_ans(self.A,1)
