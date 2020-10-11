@@ -2,7 +2,8 @@
 <h1><a href="">Fibonacci Series.py</a></h1>
 <p>
 Find i th Number in fibonacci series using recursion and memoization<br>
-take i from user    
+take i from user <br>
+Time Limit :=  ( 10  sec when 50<=i<=700)  
 </p>
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/MyStack.py">MyStack.py</a></h1>
 <p>
