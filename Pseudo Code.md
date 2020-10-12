@@ -1,6 +1,5 @@
-<hr><br>
-<hr>
 <center><h1>Pseudo Codes for Data Structures</h1></center><br>
+<hr>
 <h2> Linked List</h2><br>
 <p><br>
 Class Node {   // class creating Nodes for Linked List <br>
@@ -15,3 +14,4 @@ Class Node {   // class creating Nodes for Linked List <br>
   }<br>
   }<br>
 </p><br>
+<hr>
