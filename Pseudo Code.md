@@ -14,7 +14,7 @@ Class Node {   // class creating Nodes for Linked List <br>
   }<br>
   }<br>
 </p><br>
-class LinkedList{                                   // Main class implement Linked List  <br>
+class LinkedList{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // Main class implement Linked List  <br>
    LinkedList(){ <br>
        this.Node = None<br>
         this.previous = None<br>
