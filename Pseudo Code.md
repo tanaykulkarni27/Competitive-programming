@@ -14,17 +14,17 @@ Class Node {   // class creating Nodes for Linked List <br>
   }<br>
   }<br>
 </p><br>
-class LinkedList{ // Main class implement Linked List  
+class LinkedList{                                   // Main class implement Linked List  <br>
    LinkedList(){ <br>
        this.Node = None<br>
         this.previous = None<br>
-        }<br>
+        }<br><br>
     void add(data):<br>
-        if this.previous == None{  // if we are creating the node for first time it creates a head Node<br>
+        if this.previous == None{                   // if we are creating the node for first time it creates a head Node<br>
            this.Node = Node(data)<br>
             this.previous = self.Node<br>
-            }<br>
-        else{                        // if we already have any data add's the data to the previous Node<br>
+            }<br><br>
+        else{                                       // if we already have any data add's the data to the previous Node<br>
             this.previous.next = Node(data)<br>
             thisprevious = self.previous.next<br>
             }<br>
