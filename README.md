@@ -98,3 +98,8 @@ Supervin is a librarian handling an ancient book with N pages, numbered from 1 t
 Since the book is too old, unfortunately M pages are torn out: page number P<sub>1</sub>, P<sub>2</sub>, ..., P<sub>M</sub>.
 Today, there are Q lazy readers who are interested in reading the ancient book. Since they are lazy, each reader will not necessarily read all the pages. Instead, the i-th reader will only read the pages that are numbered multiples of R<sub>i</sub> and not torn out. Supervin would like to know the sum of the number of pages read by each reader.
 </p>
+<h1><a>,a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Cakes.py">Cakes.py</a></h1>
+<p>
+Wheatley is at the best party in the world: it has infinitely many cakes! Each cake is a square with an integer side length (in cm). The party has infinitely many cakes of<br> every possible integer side length. The cakes all have the same depth, so we will only consider their areas.<br>
+Wheatley is determined to eat one or more cakes that have a total combined area of exactly N cm2. But, since he is health-conscious, he wants to eat as few cakes<br>as possible. Can you help him calculate the minimum number of cakes he can eat?
+</p>    
