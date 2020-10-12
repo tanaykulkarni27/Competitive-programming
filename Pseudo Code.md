@@ -1,3 +1,5 @@
+<hr><br>
+<hr>
 <center><h1>Pseudo Codes for Data Structures</h1></center><br>
 <h2> Linked List</h2><br>
 <p><br>
