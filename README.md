@@ -3,6 +3,16 @@
 <p>
 Implementation of Linked List in Python
 </p>
+<h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Bike%20Tour.py">Bike Tour.py</a></h1>
+<p>
+Li has planned a bike tour through the mountains of Switzerland. His tour consists of<br>
+N checkpoints, numbered from 1 to N in the order he will visit them. The i-th checkpoint<br>
+has a height of H<sub>i</sub>.<br>
+A checkpoint is a peak if:
+<br>
+It is not the 1st checkpoint or the N-th checkpoint, and
+The height of the checkpoint is strictly greater than the checkpoint immediately before it and the checkpoint immediately after it
+</p>
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Fibonacci%20series.py">Fibonacci Series.py</a></h1>
 <p>
 Find i th Number in fibonacci series using recursion and memoization<br>
