@@ -5,6 +5,10 @@
 <p>
 Implementation of Linked List in Python
 </p>
+<h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/LinkedList.py">QuickSort.py</a></h1>
+<p>
+Implementation of QucikSort in Python
+</p>
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Bike%20Tour.py">Bike Tour.py</a></h1>
 <p>
 Li has planned a bike tour through the mountains of Himalayas. His tour consists of<br>
