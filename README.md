@@ -8,7 +8,7 @@ Diagrammatic representation of Coding
 Implementation of Linked List in Python
 </p>
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/QuickSort.py">QuickSort.py</a></h1>
-<h3><a href="">Watch Diagram</a></h3>
+<h3><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Structures%20and%20diagrams.md">Watch Diagram</a></h3>
 <p>
 Implementation of QucikSort in Python
 </p>
