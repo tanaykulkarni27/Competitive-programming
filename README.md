@@ -1,6 +1,8 @@
 # Python-Coding
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Structures%20and%20diagrams.md">Diagrams.md</a></h1>
-
+<p>
+Diagrammatic representation of Coding
+</p>
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/LinkedList.py">Linked List.py</a></h1>
 <p>
 Implementation of Linked List in Python
