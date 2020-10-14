@@ -1,5 +1,5 @@
 # Python-Coding
-<h1><a hef="">structures and diagrams.md</a></h1>
+<h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Structures%20and%20diagrams.md">structures and diagrams.md</a></h1>
 
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/LinkedList.py">Linked List.py</a></h1>
 <p>
