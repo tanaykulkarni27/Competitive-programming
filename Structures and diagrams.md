@@ -4,6 +4,6 @@
 <hr>
 <hr>
 <h1>Implementation of QuickSort in Python</h1>  
-<a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/QuickSortCut.py"><button>See Implementation in Python</button></a>
+<a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/QuickSort.py"><button>See Implementation in Python</button></a>
 <img src="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Images/QuickSortCut.png">
 <hr>
