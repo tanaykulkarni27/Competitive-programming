@@ -52,7 +52,7 @@ What is the maximum number of houses you can buy?
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Subset.py">Subsets.Py</a></h1>
 <p> finds all possible non empty subset from a list</p>
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Record%20Breaker.py">Record Breaker.Py</a></h1>
-<p>Isyana is given the number of visitors at her local theme park on N consecutive days. The number of visitors on the i-th day is Vi.<br> A day is record breaking if it satisfies both of the following conditions:<br>
+<p>Isyana is given the number of visitors at her local theme park on N consecutive days. The number of visitors on the i-th day is V<sub>i</sub>.<br> A day is record breaking if it satisfies both of the following conditions:<br>
 The number of visitors on the day is strictly larger than the number of visitors on each of the previous days.<br>
 Either it is the last day, or the number of visitors on the day is strictly larger than the number of visitors on the following day.<br>
 Note that the very first day could be a record breaking day!<br>
