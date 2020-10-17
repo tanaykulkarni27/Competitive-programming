@@ -1,28 +1,27 @@
 class case:
-    def __init__(self,A):
-        self.A = A
-    def get_result(self):
-        counter = 1
-        lengths = []
-        for i in range(1,len(self.A)-1):
-          varA = self.A[i] - self.A[i-1]
-          VarB = self.A[i+1] - self.A[i]
-          if varA  == VarB:
-            counter = 1
-            for j in range(i-1,len(self.A)-1):
-                if self.A[j+1]-self.A[j] == varA:
-                    counter = counter+1
-                elif self.A[j+1]-self.A[j] != varA:
-                    break;
-            if counter>1:
-                lengths.append(counter)
-        if len(lengths)>0:
-            return max(lengths)
-        else:
-            return 0
-Case = int(input())
-N = int(input())
-A = [int(i) for i in input().split()]
-if N == len(A):
-    ans = case(A).get_result()
-    print('Case #{}: {}'.format(Case,ans))
+    def __init__(self,No,Vistors):
+        self.No_of_days = No
+        self.visitors = Vistors
+        self.Days_counter = 0
+    def max(self,a,b):
+        if a>b:
+            return a
+        elif b>a:
+            return b
+        elif a == b:
+            return a
+    def get_solution(self):
+        previous_record = 0;new_record=0
+        for i in range(len(self.visitors)):
+# if day is first day or vistors of day is greater than the previous record breaking day  and if day is second last day or number of visitors second_last day > no of visitors last Day
+            if ( i == 0 or self.visitors[i]>previous_record )and (i+1==len(self.visitors) or self.visitors[i]>self.visitors[i+1]):
+                new_record+=1                                                                                                        # count's the Number of record breaking days
+            previous_record = self.max(previous_record,self.visitors[i])  # for checking new day is record breaking or not
+        return new_record
+T = int(input())
+for i in range(1,T+1):
+    No_of_Days  = int(input())
+    No_of_visitors_per_day = [ int(i) for i in input().split() ]
+    obj = case(No_of_Days,No_of_visitors_per_day)
+    ans = obj.get_solution()
+    print('Case #{}: {}'.format(i,ans))
