@@ -12,6 +12,13 @@ Implementation of Linked List in Python
 <p>
 Implementation of QucikSort in Python
 </p>
+<h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/CountDown.py">CountDown.py</a></h1>
+<p>
+Avery has an array of N positive integers. The i-th integer of the array is Ai.<br>
+A contiguous subarray is an m-countdown if it is of length m and contains<br>
+the integers m, m-1, m-2, ..., 2, 1 in that order. For example, [3, 2, 1] is a 3-countdown.<br>
+Can you help Avery count the number of K-countdowns in her array?
+</p>
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Bike%20Tour.py">Bike Tour.py</a></h1>
 <p>
 Li has planned a bike tour through the mountains of Himalayas. His tour consists of<br>
