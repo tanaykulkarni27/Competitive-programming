@@ -7,7 +7,7 @@ help john to find points nearest to the origin<br>
                           2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                           3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                           4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                          5
+                          5&nbsp;&nbsp;<--- Points can be shown as numbers
        &nbsp;&nbsp;&nbsp;</td></tr>
        <tr><td>[cord] [cord] [cord] [cord] [cord] </td></tr>.
 <hr>
