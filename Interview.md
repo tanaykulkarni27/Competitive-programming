@@ -12,5 +12,5 @@ help john to find points nearest to the origin<br>
        &nbsp;&nbsp;&nbsp;</td></tr>
        <tr><td>[cord] [cord] [cord] [cord] [cord] </td></tr>.
        </table>
-<a href="">View Solution</a>
+<a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Nearest%20Points.py">View Solution</a>
 <hr>
