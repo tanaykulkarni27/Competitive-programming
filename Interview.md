@@ -11,4 +11,5 @@ help john to find points nearest to the origin<br>
                           5&nbsp;&nbsp;<--- Points can be shown as numbers
        &nbsp;&nbsp;&nbsp;</td></tr>
        <tr><td>[cord] [cord] [cord] [cord] [cord] </td></tr>.
+       </table>
 <hr>
