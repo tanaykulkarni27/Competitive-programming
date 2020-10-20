@@ -1,4 +1,8 @@
 # Python-Coding
+<h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/MaximumCoins.py">Maximum Coins</a><h1>
+<p>
+Mike has a square matrix with N rows and N columns. Cell (i,j) denotes the cell present at row i and column j. Cell (1,1) denotes the top left corner of the matrix. Each cell has some amount of coins associated with it and Mike can collect them only if he visits that cell. Ci,j represents the number of coins in cell with row i and column j. From a cell (i,j), Mike can decide to go to cell (i+1,j+1) or cell (i-1,j-1), as long as the cell lies within the boundaries of the matrix and has not been visited yet. He can choose to start the journey from any cell and choose to stop at any point. Mike wants to maximize the number of coins he can collect. Please help him determine the maximum number of coins he can collect.
+</p>
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/KickStart.py">KickStart.py</a></h1>
 <p>
 Ksenia is very fond of reading so she kicks off each day by reading a fragment from her favourite book before starting with the rest of her morning routine. A fragment is simply a substring of the text. Ksenia is somewhat superstitious and believes that her day will be lucky if the fragment she reads starts with the string KICK, then goes on with 0 or more characters, and eventually ends with the string START, even if the overall fragment makes little sense.
