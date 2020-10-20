@@ -1,5 +1,5 @@
 # Python-Coding
-<h1><a href="">KickStart.py</a></h1>
+<h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/KickStart.py">KickStart.py</a></h1>
 <p>
 Ksenia is very fond of reading so she kicks off each day by reading a fragment from her favourite book before starting with the rest of her morning routine. A fragment is simply a substring of the text. Ksenia is somewhat superstitious and believes that her day will be lucky if the fragment she reads starts with the string KICK, then goes on with 0 or more characters, and eventually ends with the string START, even if the overall fragment makes little sense.
 
