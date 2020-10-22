@@ -1,4 +1,14 @@
 # Python-Coding
+<h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Wiggle%20Walk.py"></a>Wiggle Walk</h1>
+<p>
+Banny has just bought a new programmable robot. Eager to test his coding skills, he has placed the robot in a grid of squares with R rows (numbered 1 to R from north to south) and C columns (numbered 1 to C from west to east). The square in row r and column c is denoted (r, c).
+
+Initially the robot starts in the square (SR, SC). Banny will give the robot N instructions. Each instruction is one of N, S, E or W, instructing the robot to move one square north, south, east or west respectively.
+
+If the robot moves into a square that it has been in before, the robot will continue moving in the same direction until it reaches a square that it has not been in before. Banny will never give the robot an instruction that will cause it to move out of the grid.
+
+Can you help Banny determine which square the robot will finish in, after following the N instructions?
+</p>
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/MaximumCoins.py">Maximum Coins</a></h1>
 <p>
 Mike has a square matrix with N rows and N columns. Cell (i,j) denotes the cell present at row i and column j. Cell (1,1) denotes the top left corner of the matrix. Each cell has some amount of coins associated with it and Mike can collect them only if he visits that cell. Ci,j represents the number of coins in cell with row i and column j. From a cell (i,j), Mike can decide to go to cell (i+1,j+1) or cell (i-1,j-1), as long as the cell lies within the boundaries of the matrix and has not been visited yet. He can choose to start the journey from any cell and choose to stop at any point. Mike wants to maximize the number of coins he can collect. Please help him determine the maximum number of coins he can collect.
