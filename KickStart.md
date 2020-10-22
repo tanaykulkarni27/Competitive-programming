@@ -1,4 +1,14 @@
 # Python-Coding
+<h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Building%20palindroms.py">Building Palindromes</a></h1>
+<p>
+Anna has a row of N blocks, each with exactly one letter from A to Z written on it. The blocks are numbered 1, 2, ..., N from left to right.
+
+Today, she is learning about palindromes. A palindrome is a string that is the same written forwards and backwards. For example, ANNA, RACECAR, AAA and X are all palindromes, while AB, FROG and YOYO are not.
+
+Bob wants to test how well Anna understands palindromes, and will ask her Q questions. The i-th question is: can Anna use all of the blocks numbered from Li to Ri, inclusive, rearranging them if necessary, to form a palindrome? After each question, Anna puts the blocks back in their original positions.
+
+Please help Anna by finding out how many of Bob's questions she can answer "yes" to.
+</p>
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Wiggle%20Walk.py">Wiggle Walk</a></h1>
 <p>
 Banny has just bought a new programmable robot. Eager to test his coding skills, he has placed the robot in a grid of squares with R rows (numbered 1 to R from north to south) and C columns (numbered 1 to C from west to east). The square in row r and column c is denoted (r, c).
