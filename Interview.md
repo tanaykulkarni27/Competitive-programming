@@ -30,10 +30,14 @@ this tree is not unival tree
 <img src="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Images/failed_tree.png">
 </td>
 <td>
-Given Tree
+Given Tree A
 <br>
 <img src="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Images/main_question_tree.png">       
 </td>
+<td>
+Given Tree B
+<img src="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Images/tree_question_setB.png">
+</td>       
 </tr>
 </table>
            
