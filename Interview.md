@@ -16,6 +16,7 @@ help john to find points nearest to the origin<br>
 <hr>
 find the number of unival tree in the given tree<br>
 a unival tree is a tree in which all nodes have same values<br>
+<a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Unival_tree.py">view solution</a>
 for example :=- <br>
 <table>
 <tr>
