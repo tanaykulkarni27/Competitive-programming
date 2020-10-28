@@ -14,7 +14,7 @@ help john to find points nearest to the origin<br>
        </table>
 <a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Nearest%20Points.py">View Solution</a>
 <hr>
-find the number of unival tree in the given tree
+find the number of unival tree in the given tree<br>
 for example :=- <br>
 this tree is unival tree
 <br>
