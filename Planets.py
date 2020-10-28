@@ -32,22 +32,26 @@ class graph:
     def dfs_helper(self,vertex,status_of_nodes,map,cycle_element=[]):
         status_of_nodes[vertex-1] = 'black'
         # print(vertex)
-        for i in self.graph.get(vertex):
-            if status_of_nodes[i-1] == 'white':
-                if map.get(i)==None:
+        if len(cycle_element)<=0:
+            for i in self.graph.get(vertex):
+                if status_of_nodes[i-1] == 'white':
                     map[i]=vertex
-                self.dfs_helper(i,status_of_nodes,map,cycle_element)
-                status_of_nodes[i-1]='gray'
-            else:
-                if status_of_nodes[i-1] == 'black' and i != map.get(vertex) and map.get(vertex) != None:
-                    if i not in cycle_element:
+                    self.dfs_helper(i,status_of_nodes,map,cycle_element)
+                    status_of_nodes[i-1]='gray'
+                else:
+
+                    if status_of_nodes[i-1] == 'black' and i != map.get(vertex) and map.get(vertex) != None:
+                        temp = vertex
                         cycle_element.append(i)
-        return  cycle_element
+                        while temp !=i:
+                            if temp not in cycle_element:
+                                cycle_element.append(temp)
+                            temp = map.get(temp)
+        return cycle_element
     def dfs(self,N,ele):
-        for i in range(1,N+1):
-            array = ['white'] * len(self.graph)
-            ans = self.dfs_helper(i,array,{},[])
-            ele = ele+ans
+        array = ['white'] * len(self.graph)
+        ans = self.dfs_helper(N,array,{},[])
+        ele = ele+ans
         return ele
 class case:
     def __init__(self,N,graph):
@@ -57,19 +61,15 @@ class case:
         ans = []
         main_graph = graph()
         main_graph.add(self.input_graph)
-        cycle_graph = main_graph.dfs(self.N,[])
+        cycle_graph = main_graph.dfs(1,[])
         # print(cycle_graph)
-        distance = 0
         for i in range(1,self.N+1):
             if i in  cycle_graph:
                 ans.append(0)
             else:
-                distance = 0
+                distance = 1000000000
                 for j in cycle_graph:
-                    if distance!=0:
                         distance = min(distance,len(main_graph.get_shortest_path(i,j)))
-                    else:
-                        distance = max(distance,len(main_graph.get_shortest_path(i,j)))
                 ans.append(distance-1)
         return ans
 # if "__name__" or "__main__":
