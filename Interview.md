@@ -23,12 +23,16 @@ for example :=- <br>
 this tree is unival tree
 <br><br>
 <img src="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Images/ext.png">
-
 </td>
 <td>       
 this tree is not unival tree
 <br>
 <img src="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Images/failed_tree.png">
+</td>
+<td>
+Given Tree
+<br>
+<img src="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Images/main_question_tree.png">       
 </td>
 </tr>
 </table>
