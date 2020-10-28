@@ -15,10 +15,8 @@ help john to find points nearest to the origin<br>
 <a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Nearest%20Points.py">View Solution</a>
 <hr>
 find the number of unival tree in the given tree
-<img src="">
+<img src="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Images/Screenshot%20(18).png">
 a unival tree is a tree in which all nodes have same values
 for example :=- <br>
-    3        this is a unival tree
-  /  \
-3      3               
+           
 <hr>
