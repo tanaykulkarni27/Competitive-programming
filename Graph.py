@@ -35,6 +35,21 @@ class graph:
                     if short_path == None or len(sp)<len(short_path):
                         short_path = sp
         return short_path
+    def dfs_helper(self,vertex,status_of_nodes,map,cycle_element=[]):
+        status_of_nodes[vertex-1] = 'black'
+        # print(vertex)
+        for i in self.graph.get(vertex):
+            if status_of_nodes[i-1] == 'white':
+                if map.get(i)==None:
+                    map[i]=vertex
+                self.dfs_helper(i,status_of_nodes,map)
+                status_of_nodes[i-1]='gray'
+    def dfs(self,N):
+        ans = 0
+        for i in range(1,N+1):
+            array = ['white'] * len(self.graph)
+            ans = self.dfs_helper(i,array,{})
+        return ans    
 # N = int(input())
 routes = [
     ['Mumbai','Paris'],
