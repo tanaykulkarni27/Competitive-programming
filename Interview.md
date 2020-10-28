@@ -21,7 +21,7 @@ for example :=- <br>
 <tr>
 <td>       
 this tree is unival tree
-<br>
+<br><br>
 <img src="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Images/ext.png">
 
 </td>
