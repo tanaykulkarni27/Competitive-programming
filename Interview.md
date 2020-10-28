@@ -17,6 +17,7 @@ help john to find points nearest to the origin<br>
 find the number of unival tree in the given tree<br>
 a unival tree is a tree in which all nodes have same values<br>
 for example :=- <br>
+<table>
 <tr>
 <td>       
 this tree is unival tree
@@ -28,9 +29,8 @@ this tree is unival tree
 this tree is not unival tree
 <br>
 <img src="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Images/failed_tree.png">
-
 </td>
 </tr>
-
+</table>
            
 <hr>
