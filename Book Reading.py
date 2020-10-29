@@ -3,13 +3,20 @@ class case:
         self.torned = torned
         self.reader_m = reader_m
         self.pages = pages
-    def solve(self):
-        ans = 0
-        for page in range(1,self.pages+1):
-            if page not in self.torned:
-                for reader in self.reader_m:
-                    if page%reader == 0:
-                         ans+=1
+    def f(self,reader): 
+        if reader == 1: # O(1) in time to find ans
+            return self.pages-len(self.torned)
+        else:     # Taking N/X Time to find ans
+            X = 1;ans=0
+            while reader * X <= self.pages:
+                if reader * X not in self.torned:
+                    ans += 1
+                X += 1
+            return ans
+    def solve(self): # O(N) time 
+        ans = 0;
+        for reader in self.reader_m:
+            ans+=self.f(reader)
         return ans
 T = int(input())
 for i in range(1,T+1):
