@@ -4,13 +4,12 @@ class case:
         self.reader_m = reader_m
         self.pages = pages
     def solve(self):
-        ans = 0;X=1
-        for reader in self.reader_m:
-            X=1
-            while reader*X <= self.pages :
-                if reader*X not in self.torned:
-                    ans+=1
-                X+=1
+        ans = 0
+        for page in range(1,self.pages+1):
+            if page not in self.torned:
+                for reader in self.reader_m:
+                    if page%reader == 0:
+                         ans+=1
         return ans
 T = int(input())
 for i in range(1,T+1):
