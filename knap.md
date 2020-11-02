@@ -9,4 +9,4 @@ Dr. Patel has N stacks of plates. Each stack contains K plates. Each plate has a
 Dr. Patel would like to take exactly P plates to use for dinner tonight. If he would like to take a plate in a stack, he must also take all of the plates above it in that stack as well.
 
 Help Dr. Patel pick the P plates that would maximize the total sum of beauty values.
-<a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/knap.py">View Solution</a>
+<a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/plates.py">View Solution</a>
