@@ -10,3 +10,4 @@ At the same time, they do not want to change the positions of the labels, so tha
 
 Here comes the problem. A sequence of N values s0, s1, ..., sN-1 is given, which indicates the worths of the books from the left to the right on the bookshelf currently. Please help the brothers to find out the sequence of worths after sorting such that it satisfies the above description.
 </p>
+<hr>
