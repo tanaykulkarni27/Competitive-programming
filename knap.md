@@ -22,4 +22,4 @@ Help Dr. Patel pick the P plates that would maximize the total sum of beauty val
 <h2>
    Kadane's Algo 
 </h2>
-<a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/plates.py">View Solution</a>
+<a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/kdane.py">View Solution</a>
