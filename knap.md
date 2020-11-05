@@ -20,5 +20,6 @@ Help Dr. Patel pick the P plates that would maximize the total sum of beauty val
 -2 3 2 -1 find the maximum sum of subarray of this array in O(N) time
 
 <h2>
-   Kadanes Algo 
+   Kadane's Algo 
 </h2>
+<a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/plates.py">View Solution</a>
