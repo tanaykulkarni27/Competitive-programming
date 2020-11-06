@@ -1,11 +1,10 @@
 # Competetive Programming
-<a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Planets.py"><h1>Metal Harvest</h1></a>
+<a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/metal.py"><h1>Metal Harvest</h1></a>
 <p>
   You are in charge of deploying robots to harvest Kickium from a nearby asteroid. Robots are not designed to work as a team, so only one robot can harvest at any point of time. A single robot can be deployed for up to K units of time in a row before it returns for calibration, regardless of how much time it spends on harvesting during that period. Harvesting can only be done during specific time intervals. These time intervals do not overlap. Given K and the time intervals in which harvesting is allowed, what is the minimum number of robot deployments required to harvest at all possible times?
 </p>
 <hr>
-<a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Planets.py"><h1>Planet Distance</h1></a>
-
+<h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Planets.py">Planet Distance</a></h1>
 <p>
     There are N planets in the universe, and Google's Space division has installed N vacuum tubes through which you can travel from one planet to another. The tubes are bidirectional; travelers may use a tube between two planets to travel from either of those planets to the other. Each vacuum tube connects two planets and no two vacuum tubes connect the same pair of planets. These tubes connect the planets such that it is possible to travel from any planet to any other planet using one or more of them. Some of these tubes are connected such that there exists exactly one cycle in the universe. Google has hidden gifts in all the planets that are part of this cycle. Now, Google wants to know how far away each of the planets in the universe is from the gifts.
 
