@@ -4,18 +4,14 @@ class case:
         self.Max_Length = 0
         self.Old_Max_Length = 0
     def get_solution(self):
-        for i in range(len(self.integers)-1):
-            j = i;temp = 1
+        i=0
+        while i< len(self.integers)-1:
+            j = i
             common_difference = self.integers[i+1]-self.integers[i]
-            while j<len(self.integers)-1:
-                if self.integers[j+1]-self.integers[j]==common_difference:
-                    temp+=1
-                else:
-                    break
+            while ((j<len(self.integers)-1) and (self.integers[j+1]-self.integers[j]==common_difference)):
                 j+=1
-            self.Max_Length = temp
-            if self.Max_Length > self.Old_Max_Length:
-                self.Old_Max_Length=self.Max_Length
+            self.Old_Max_Length = max(self.Old_Max_Length,j-i+1)
+            i=max(i+1,j)
         return self.Old_Max_Length
 T = int(input())
 for i in range(1, T + 1):
