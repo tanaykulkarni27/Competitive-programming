@@ -1,4 +1,9 @@
-# Python-Coding
+# Competetive Programming
+<a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Planets.py"><h1>Metal Harvest</h1></a>
+<p>
+  You are in charge of deploying robots to harvest Kickium from a nearby asteroid. Robots are not designed to work as a team, so only one robot can harvest at any point of time. A single robot can be deployed for up to K units of time in a row before it returns for calibration, regardless of how much time it spends on harvesting during that period. Harvesting can only be done during specific time intervals. These time intervals do not overlap. Given K and the time intervals in which harvesting is allowed, what is the minimum number of robot deployments required to harvest at all possible times?
+</p>
+<hr>
 <a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Planets.py"><h1>Planet Distance</h1></a>
 
 <p>
@@ -6,6 +11,7 @@
 
 Your task is to find the minimum distance (in terms of the number of vacuum tubes) between each planet and a planet that is part of the cycle. Planets that are part of the cycle are assumed to be at distance 0.
 </p>
+<hr>
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Building%20palindroms.py">Building Palindromes</a></h1>
 <p>
 Anna has a row of N blocks, each with exactly one letter from A to Z written on it. The blocks are numbered 1, 2, ..., N from left to right.
