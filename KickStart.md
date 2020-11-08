@@ -157,20 +157,20 @@ she can consume, starting from today?</p>
     A<sub>z</sub> = A<sub>x</sub> × A<sub>y</sub>
 </p>
 <h2>Test Cases </h2>
-4
-6
-5 2 4 6 3 1
-6
-2 4 8 16 32 64
-3
-1 1 1
-3
-200000 200000 200000
+4<br>
+6<br>
+5 2 4 6 3 1<br>
+6<br>
+2 4 8 16 32 64<br>
+3<br>
+1 1 1<br>
+3<br>
+200000 200000 200000<br>
 
-Case #1: 1
-Case #2: 6
-Case #3: 1
-Case #4: 0
+Case #1: 1<br>
+Case #2: 6<br>
+Case #3: 1<br>
+Case #4: 0<br>
 
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/create/master/Huge%20Numbers.py">Huge Numbers.py</a></h1>
 <p>
