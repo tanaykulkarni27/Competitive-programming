@@ -177,7 +177,9 @@ Case #4: 0<br>
 Professor Shekhu has another problem for John today. He has given him three<br>
     positive integers A, N and P and wants him to calculate the remainder when A<sup>N!</sup> is<br>
 divided by P. As usual, N! denotes the product of the first N positive integers<br>
-<ins><h3>Find output in 40 seconds when  1<= N <=25</h3></ins>    
+<ins><h3>Find output in 40 seconds when  1<= A <=10<sup>5</sup></h3></ins>    
+<ins><h3>Find output in 40 seconds when  1<= N <=10<sup>5</sup></h3></ins>   
+<ins><h3>Find output in 40 seconds when  1<= P <=10<sup>5</sup></h3></ins>   
 </p>
 <h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Book%20Reading.py">Book Reading .py</a></h1>
 <p>
