@@ -1,5 +1,5 @@
 import sys
-sys.setrecursionlimit(int(100000))
+sys.setrecursionlimit(int(1000000))
 def read_str():
     return str(input())
 def read_int():
@@ -11,14 +11,14 @@ def read_int_array():
 # temp = 0
 
 def pow(n,p,memo = {}):
-    if p == 1:
-        return n
-    if (n,p) in memo:
-        return memo.get((n,p))
+    if p == 0:
+        return 1
+    half_pow = pow(n,p//2)
+    half_sqr = (half_pow*half_pow)
+    if p%2 == 0:
+        return half_sqr
     else:
-        ans = n*pow(n,p-1,memo)
-        memo[(n,p)] = ans
-        return ans
+        return half_sqr*n
 def solve():
     ans = A%P
     for i in range(2,N+1):
