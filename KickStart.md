@@ -1,4 +1,9 @@
 # Competetive Programming
+<a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/perfect.py"><h1>Perfect Subarray</h1></a>
+Cristobal has an array of N (possibly negative) integers. The i-th integer in his array is Ai. A contiguous non-empty subarray of Cristobal's array is perfect if its total sum is a perfect square. A perfect square is a number that is the product of a non-negative integer with itself. For example, the first five perfect squares are 0, 1, 4, 9 and 16.
+
+How many subarrays are perfect? Two subarrays are different if they start or end at different indices in the array, even if the subarrays contain the same values in the same order.
+
 <a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/metal.py"><h1>Metal Harvest</h1></a>
 <p>
   You are in charge of deploying robots to harvest Kickium from a nearby asteroid. Robots are not designed to work as a team, so only one robot can harvest at any point of time. A single robot can be deployed for up to K units of time in a row before it returns for calibration, regardless of how much time it spends on harvesting during that period. Harvesting can only be done during specific time intervals. These time intervals do not overlap. Given K and the time intervals in which harvesting is allowed, what is the minimum number of robot deployments required to harvest at all possible times?
