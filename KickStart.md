@@ -1,4 +1,8 @@
 # Competetive Programming
+<a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/retype.py"><h1>Retype</h1></a>
+Ron read a book about boring numbers. According to the book, a positive number is called boring if all of the digits at even positions in the number are even and all of the digits at odd positions are odd. The digits are enumerated from left to right starting from 1. For example, the number 1478 is boring as the odd positions include the digits {1, 7} which are odd and even positions include the digits {4, 8} which are even.
+
+Given two numbers L and R, Ron wants to count how many numbers in the range [L, R] (L and R inclusive) are boring. Ron is unable to solve the problem, hence he needs your help.
 <a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/perfect.py"><h1>Perfect Subarray</h1></a>
 Cristobal has an array of N (possibly negative) integers. The i-th integer in his array is Ai. A contiguous non-empty subarray of Cristobal's array is perfect if its total sum is a perfect square. A perfect square is a number that is the product of a non-negative integer with itself. For example, the first five perfect squares are 0, 1, 4, 9 and 16.
 
