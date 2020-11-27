@@ -1,4 +1,12 @@
 # Competetive Programming
+<a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Even.py"><h1>Even Digits</h1></a> (1<=N<=10<sup>5</sup> )
+Supervin has a unique calculator. This calculator only has a display, a plus button, and a minus button. Currently, the integer N is displayed on the calculator display.
+
+Pressing the plus button increases the current number displayed on the calculator display by 1. Similarly, pressing the minus button decreases the current number displayed on the calculator display by 1. The calculator does not display any leading zeros. For example, if 100 is displayed on the calculator display, pressing the minus button once will cause the calculator to display 99.
+
+Supervin does not like odd digits, because he thinks they are "odd". Therefore, he wants to display an integer with only even digits in its decimal representation, using only the calculator buttons. Since the calculator is a bit old and the buttons are hard to press, he wants to use a minimal number of button presses.
+
+Please help Supervin to determine the minimum number of button presses to make the calculator display an integer with no odd digits.
 <a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/retype.py"><h1>Retype</h1></a>
 Ron read a book about boring numbers. According to the book, a positive number is called boring if all of the digits at even positions in the number are even and all of the digits at odd positions are odd. The digits are enumerated from left to right starting from 1. For example, the number 1478 is boring as the odd positions include the digits {1, 7} which are odd and even positions include the digits {4, 8} which are even.
 
