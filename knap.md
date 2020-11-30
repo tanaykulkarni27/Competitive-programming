@@ -23,3 +23,6 @@ Help Dr. Patel pick the P plates that would maximize the total sum of beauty val
    Kadane's Algo 
 </h2>
 <a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/kdane.py">View Solution</a>
+<h1>Heap Sort</h1>
+an array is converted in the binary tree and then that tree is converted in max heap and 1 by 1 elements are exported
+<a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/heap.py">View Solution</a>
