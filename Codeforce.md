@@ -3,7 +3,7 @@ For a given array A consisting of n integers and a given integer m find if it is
 such a way that ∑<sup>n</sup><sub>i=1</sub>∑<sup>n</sup><sub>j=i</sub> A<sub>j</sub>/2 is equal to m? It is forbidden to delete elements as well as insert new elements. Please note that no rounding occurs during division, for example, 5/2=2.5<br>
 if ∑<sup>n</sup><sub>i=1</sub>∑<sup>n</sup><sub>j=i</sub> A<sub>j</sub>/2 is equal to m is True print YES else print NO
 <hr>
-<h1><a href="https://github.com/tanaykulkarni27/Competitive-programming/">Kids Seating</a></h1>
+<h1><a href="https://github.com/tanaykulkarni27/Competitive-programming/blob/master/Kids%20SeatingC.py">Kids Seating</a></h1>
 Today the kindergarten has a new group of n kids who need to be seated at the dinner table. The chairs at the table are numbered from 1 to 4n. Two kids can't sit on the same chair. It is known that two kids who sit on chairs with numbers a and b (a≠b) will indulge if:
 
 gcd(a,b)=1 or,
