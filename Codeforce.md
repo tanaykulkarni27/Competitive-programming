@@ -15,3 +15,18 @@ For example, if n=3 and the kids sit on chairs with numbers 2, 3, 4, then they w
 The teacher really doesn't want the mess at the table, so she wants to seat the kids so there are no 2 of the kid that can indulge. More formally, she wants no pair of chairs a and b that the kids occupy to fulfill the condition above.
 
 Since the teacher is very busy with the entertainment of the kids, she asked you to solve this problem.
+<hr>
+<h1><a href="https://github.com/tanaykulkarni27/Competitive-programming/blob/master/Prime%20Square.py">Prime Square</a></h1>
+<br>
+  time limit = 1.5 seconds
+  2 <= N <= 100
+  Output = Print the Prime Square (matrix)
+<br>
+Sasha likes investigating different math objects, for example, magic squares. But Sasha understands that magic squares have already been studied by hundreds of people, so he sees no sense of studying them further. Instead, he invented his own type of square — a prime square.
+
+A square of size n×n is called prime if the following three conditions are held simultaneously:
+
+all numbers on the square are non-negative integers not exceeding 105;
+there are no prime numbers in the square;
+sums of integers in each row and each column are prime numbers.
+Sasha has an integer n. He asks you to find any prime square of size n×n. Sasha is absolutely sure such squares exist, so just help him!
