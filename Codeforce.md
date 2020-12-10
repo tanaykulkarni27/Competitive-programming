@@ -18,8 +18,8 @@ Since the teacher is very busy with the entertainment of the kids, she asked you
 <hr>
 <h1><a href="https://github.com/tanaykulkarni27/Competitive-programming/blob/master/Prime%20Square.py">Prime Square</a></h1>
 <br>
-  time limit = 1.5 seconds
-  2 <= N <= 100
+  time limit = 1.5 seconds<br>
+  2 <= N <= 100<br>
   Output = Print the Prime Square (matrix)
 <br>
 Sasha likes investigating different math objects, for example, magic squares. But Sasha understands that magic squares have already been studied by hundreds of people, so he sees no sense of studying them further. Instead, he invented his own type of square — a prime square.
