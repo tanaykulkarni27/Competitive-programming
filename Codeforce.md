@@ -57,3 +57,8 @@ What is the least number of flagstones needed to pave the Square? It's allowed t
 One day three best friends Petya, Vasya and Tonya decided to form a team and take part in programming contests. Participants are usually offered several problems during programming contests. Long before the start the friends decided that they will implement a problem if at least two of them are sure about the solution. Otherwise, the friends won't write the problem's solution.
 
 This contest offers n problems to the participants. For each problem we know, which friend is sure about the solution. Help the friends find the number of problems for which they will write a solution.
+<hr>
+<h1><a href="https://github.com/tanaykulkarni27/Competitive-programming/blob/master/Next%20Round.py">Next Round</a></h1>
+"Contestant who earns a score equal to or greater than the k-th place finisher's score will advance to the next round, as long as the contestant earns a positive score..." — an excerpt from contest rules.
+
+A total of n participants took part in the contest (n ≥ k), and you already know their scores. Calculate how many participants will advance to the next round.
