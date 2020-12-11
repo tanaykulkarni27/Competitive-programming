@@ -62,3 +62,13 @@ This contest offers n problems to the participants. For each problem we know, wh
 "Contestant who earns a score equal to or greater than the k-th place finisher's score will advance to the next round, as long as the contestant earns a positive score..." — an excerpt from contest rules.
 
 A total of n participants took part in the contest (n ≥ k), and you already know their scores. Calculate how many participants will advance to the next round.
+<hr>
+<h1><a href="https://github.com/tanaykulkarni27/Competitive-programming/blob/master/String%20Task.py">String Task</a></h1>
+Petya started to attend programming lessons. On the first lesson his task was to write a simple program. The program was supposed to do the following: in the given string, consisting if uppercase and lowercase Latin letters, it:
+
+deletes all the vowels,
+inserts a character "." before each consonant,
+replaces all uppercase consonants with corresponding lowercase ones.
+Vowels are letters "A", "O", "Y", "E", "U", "I", and the rest are consonants. The program's input is exactly one string, it should return the output as a single string, resulting after the program's processing the initial string.
+
+Help Petya cope with this easy task.
