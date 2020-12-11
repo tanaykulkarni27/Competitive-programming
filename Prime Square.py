@@ -33,7 +33,7 @@ def get_sum(arr,l):
 def even_s():
     evens = []
     for i in range(4,250,2):
-        evens.append(i)
+        evens.append(4)
     return evens
 def solve(n):
     even = even_s()
@@ -44,12 +44,17 @@ def solve(n):
     for l in range(0,n-1):
         sm = even[l]*(n-1)
         mat[-1].append(nxt(sm))
+        print(*mat[l])
     t = len(mat[0])-1
-    mat[-1].append(last_nxt(mat[0][t]*(n-1),sum(mat[n-1])))
+    mat[-1].append(last_nxt(mat[0][t]*(n-1),mat[n-1][0]*(n-1)))
+    print(*mat[n - 1])
     return mat
 T = read_int()
 for _ in range(1, T + 1):
     N = read_int()
-    ans = solve(N)
-    for i in ans:
-        print(*i)
+    solve(N)
+'''
+2
+4
+2
+'''
