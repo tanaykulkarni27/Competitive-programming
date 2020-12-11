@@ -48,3 +48,7 @@ Thus, "localization" will be spelt as "l10n", and "internationalization» will b
 
 You are suggested to automatize the process of changing the words with abbreviations. At that all too long words should be replaced by the abbreviation and the words that are not too long should not undergo any changes.
 <hr>
+<h1><a href="https://github.com/tanaykulkarni27/Competitive-programming/blob/master/Theatre%20Square.py">Theatre Square</a></h2>
+Theatre Square in the capital city of Berland has a rectangular shape with the size n × m meters. On the occasion of the city's anniversary, a decision was taken to pave the Square with square granite flagstones. Each flagstone is of the size a × a.
+
+What is the least number of flagstones needed to pave the Square? It's allowed to cover the surface larger than the Theatre Square, but the Square has to be covered. It's not allowed to break the flagstones. The sides of flagstones should be parallel to the sides of the Square.
