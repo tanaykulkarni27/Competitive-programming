@@ -48,7 +48,12 @@ Thus, "localization" will be spelt as "l10n", and "internationalization» will b
 
 You are suggested to automatize the process of changing the words with abbreviations. At that all too long words should be replaced by the abbreviation and the words that are not too long should not undergo any changes.
 <hr>
-<h1><a href="https://github.com/tanaykulkarni27/Competitive-programming/blob/master/Theatre%20Square.py">Theatre Square</a></h2>
+<h1><a href="https://github.com/tanaykulkarni27/Competitive-programming/blob/master/Theatre%20Square.py">Theatre Square</a></h1>
 Theatre Square in the capital city of Berland has a rectangular shape with the size n × m meters. On the occasion of the city's anniversary, a decision was taken to pave the Square with square granite flagstones. Each flagstone is of the size a × a.
 
 What is the least number of flagstones needed to pave the Square? It's allowed to cover the surface larger than the Theatre Square, but the Square has to be covered. It's not allowed to break the flagstones. The sides of flagstones should be parallel to the sides of the Square.
+<hr>
+<h1><a href="https://github.com/tanaykulkarni27/Competitive-programming/blob/master/Team.py">Team</a></h1>
+One day three best friends Petya, Vasya and Tonya decided to form a team and take part in programming contests. Participants are usually offered several problems during programming contests. Long before the start the friends decided that they will implement a problem if at least two of them are sure about the solution. Otherwise, the friends won't write the problem's solution.
+
+This contest offers n problems to the participants. For each problem we know, which friend is sure about the solution. Help the friends find the number of problems for which they will write a solution.
