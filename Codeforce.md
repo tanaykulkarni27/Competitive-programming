@@ -100,3 +100,13 @@ You're given a programme in language Bit++. The initial value of x is 0. Execute
 <hr>
 <h1><a href="https://github.com/tanaykulkarni27/Competitive-programming/blob/master/petya%20and%20strings.py">petya and strings</a></h1>
 Little Petya loves presents. His mum bought him two strings of the same size for his birthday. The strings consist of uppercase and lowercase Latin letters. Now Petya wants to compare those two strings lexicographically. The letters' case does not matter, that is an uppercase letter is considered equivalent to the corresponding lowercase letter. Help Petya perform the comparison.
+<hr>
+<h1><a href="https://github.com/tanaykulkarni27/Competitive-programming/blob/master/Beautiful%20Matrix.py">Beautiful Matrix</a></h1>
+You've got a 5 × 5 matrix, consisting of 24 zeroes and a single number one. Let's index the matrix rows by numbers from 1 to 5 from top to<br>
+bottom, let's index the matrix columns by numbers from 1 to 5 from left to right. In one move, you are allowed to apply one of the two<br>
+following transformations to the matrix:<br>
+
+Swap two neighboring matrix rows, that is, rows with indexes i and i + 1 for some integer i (1 ≤ i < 5).<br>
+Swap two neighboring matrix columns, that is, columns with indexes j and j + 1 for some integer j (1 ≤ j < 5).<br>
+You think that a matrix looks beautiful, if the single number one of the matrix is located in its middle (in the cell that is on the intersection of<br>
+the third row and the third column). Count the minimum number of moves needed to make the matrix beautiful.
