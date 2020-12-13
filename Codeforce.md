@@ -110,3 +110,5 @@ Swap two neighboring matrix rows, that is, rows with indexes i and i + 1 for
 Swap two neighboring matrix columns, that is, columns with indexes j and j + 1 for some integer j (1 ≤ j < 5).<br>
 You think that a matrix looks beautiful, if the single number one of the matrix is located in its middle (in the cell that is on the intersection of<br>
 the third row and the third column). Count the minimum number of moves needed to make the matrix beautiful.
+<hr>
+<h1><a href="https://github.com/tanaykulkarni27/Competitive-programming/blob/master/Helpful%20Maths.py">Helpful Maths</a></h1>
