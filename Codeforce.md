@@ -98,5 +98,5 @@ A programme in Bit++ is a sequence of statements, each of them needs to be execu
 
 You're given a programme in language Bit++. The initial value of x is 0. Execute the programme and find its final value (the value of the variable when this programme is<br> executed).
 <hr>
-<h1><a href="https://github.com/tanaykulkarni27/Competitive-programming/blob/master/petya%20and%20strings.py">Bits++</a></h1>
+<h1><a href="https://github.com/tanaykulkarni27/Competitive-programming/blob/master/petya%20and%20strings.py">petya and strings</a></h1>
 Little Petya loves presents. His mum bought him two strings of the same size for his birthday. The strings consist of uppercase and lowercase Latin letters. Now Petya wants to compare those two strings lexicographically. The letters' case does not matter, that is an uppercase letter is considered equivalent to the corresponding lowercase letter. Help Petya perform the comparison.
