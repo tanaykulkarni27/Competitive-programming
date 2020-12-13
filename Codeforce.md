@@ -116,4 +116,7 @@ Xenia the beginner mathematician is a third year student at elementary school. S
 
 The teacher has written down the sum of multiple numbers. Pupils should calculate the sum. To make the calculation easier, the sum only contains numbers 1, 2 and 3. Still, that isn't enough for Xenia. She is only beginning to count, so she can calculate a sum only if the summands follow in non-decreasing order. For example, she can't calculate sum 1+3+2+1 but she can calculate sums 1+1+2 and 3+3.
 
-You've got the sum that was written on the board. Rearrange the summans and print the sum in such a way that Xenia can calculate the sum.
+You've got the sum that was written on the board. Rearrange the summans and print the sum in such a way that Xenia can calculate the sum.<br>
+<hr>
+<h1><a href="https://github.com/tanaykulkarni27/Competitive-programming/blob/master/Stones%20on%20the%20table.py">Stones on the table</a></h1>
+There are n stones on the table in a row, each of them can be red, green or blue. Count the minimum number of stones to take from the table so that any two neighboring stones had different colors. Stones in a row are considered neighboring if there are no other stones between them.
