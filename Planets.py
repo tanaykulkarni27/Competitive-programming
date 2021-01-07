@@ -1,7 +1,10 @@
+import sys
+sys.setrecursionlimit(10000)
 class graph:
-    def __init__(self):   # Undirected Graph
+    def __init__(self,n):   # Undirected Graph
         self.graph = {}
         self.cycle = []
+        self.n = n
     def add(self,routes):
         for src,dest in routes:
             if src in self.graph :
@@ -13,64 +16,67 @@ class graph:
             elif dest not  in self.graph:
                 self.graph[dest] = [src]
 
+    def bfs(self, start_node, cycle, arr,status):
+        counter = 0
+        queue = []
+        maps = [-1]*(self.n+100)
+        queue.append(start_node)
+        while queue:
+            if queue[0] != None:
+                s = queue.pop(0)
+                if maps[s-1] != -1:
+                    counter*=0
+                    counter += maps[s-1]
+                if s!= start_node:
+                    arr[s - 1] = min(arr[s-1],counter)
+                counter += 1
+                for i in self.graph.get(s):
+                    if status[i - 1] == False:
+                        arr[i - 1] =min(arr[i-1],counter)
+                        status[i - 1] = True
+                        queue.append(i)
+                        maps[i-1] = counter
+            else:
+                return
+    def dfs_helper(self,vertex,status_of_nodes,map,cycle_element):
+        status_of_nodes[vertex - 1] = True
+        for i in self.graph.get(vertex):
+            if status_of_nodes[i-1] == False:
+                map[i]=vertex
+                self.dfs_helper(i,status_of_nodes,map,cycle_element)
+                status_of_nodes[i-1]='gray'
+            elif status_of_nodes[i-1] == True and i != map.get(vertex) and map.get(vertex) != None:
+                    temp = vertex
+                    cycle_element.append(i)
+                    while temp !=i:
+                        if temp not in cycle_element:
+                            cycle_element.append(temp)
+                        temp = map.get(temp)
 
-    def get_shortest_path(self,src,dest,path=[]):
-        path = path+[src]
-        if src == dest:
-            return path
-        elif src not in self.graph:
-            return []
-        shortest_path = None
-        for node in self.graph[src]:
-            if node not in path:
-                sp = self.get_shortest_path(node,dest,path)
-                if sp:
-                    if shortest_path == None or len(sp)<len(shortest_path):
-                        shortest_path = sp
 
-        return shortest_path
-    def dfs_helper(self,vertex,status_of_nodes,map,cycle_element=[]):
-        status_of_nodes[vertex-1] = 'black'
-        # print(vertex)
-        if len(cycle_element)<=0:
-            for i in self.graph.get(vertex):
-                if status_of_nodes[i-1] == 'white':
-                    map[i]=vertex
-                    self.dfs_helper(i,status_of_nodes,map,cycle_element)
-                    status_of_nodes[i-1]='gray'
-                else:
-
-                    if status_of_nodes[i-1] == 'black' and i != map.get(vertex) and map.get(vertex) != None:
-                        temp = vertex
-                        cycle_element.append(i)
-                        while temp !=i:
-                            if temp not in cycle_element:
-                                cycle_element.append(temp)
-                            temp = map.get(temp)
-        return cycle_element
-    def dfs(self,N,ele):
-        array = ['white'] * len(self.graph)
-        ans = self.dfs_helper(N,array,{},[])
-        ele = ele+ans
-        return ele
+                        # return  cycle_element
+    def dfs(self,N):
+        # for i in range(1,N+1):
+        ans = []
+        array = [False] * (N+10)
+        self.dfs_helper(1,array,{},ans)
+        return ans
 class case:
     def __init__(self,N,graph):
         self.N = N
         self.input_graph = graph
     def solve(self):
-        ans = []
-        main_graph = graph()
+        ans = [N+1]*N
+        main_graph = graph(self.N)
         main_graph.add(self.input_graph)
-        cycle_graph = main_graph.dfs(1,[])
+        cycle_graph = main_graph.dfs(self.N)
+        status = [False] * (self.N)
         # print(cycle_graph)
-        for i in range(1,self.N+1):
-            if i in  cycle_graph:
-                ans.append(0)
-            else:
-                distance = 1000000000
-                for j in cycle_graph:
-                        distance = min(distance,len(main_graph.get_shortest_path(i,j)))
-                ans.append(distance-1)
+        for cyclic_node in cycle_graph:
+            status[cyclic_node - 1] = True
+            ans[cyclic_node-1] = 0
+        for i in cycle_graph:
+                main_graph.bfs(i,cycle_graph,ans,status)
         return ans
 # if "__name__" or "__main__":
 T = int(input())
@@ -84,28 +90,26 @@ for _ in range(1,T+1):
     ans = obj.solve()
     print('Case #{}:'.format(_),end=' ')
     print(*ans)
-''' 
-4
-5
-3 1
-4 5
-5 1
-5 2
-2 1
-5
-1 2
+
+'''
+
+2
+6
+1 3
 2 3
 3 4
-2 4
+4 5
 5 3
-3
-1 2
-3 2
-1 3
-5
-5 4
-5 3
+6 2
+7
+7 2
+6 2
 2 3
-4 3
-1 2
-'''
+1 3
+3 4
+4 5
+5 3
+Case #1: 1 1 0 0 0 2
+Case #2: 1 1 0 0 0 2 2
+
+    '''
