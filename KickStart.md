@@ -1,5 +1,5 @@
 # Competetive Programming
-<a href="https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201b77/0000000000201bfd#problem">Sight Seeing</a>
+<h1><a href="https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201b77/0000000000201bfd#problem">Sight Seeing</a></h1>
 <a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Even.py"><h1>Even Digits</h1></a> Data Set := (1<=N<=10<sup>5</sup> )<br>
 Supervin has a unique calculator. This calculator only has a display, a plus button, and a minus button. Currently, the integer N is displayed on the calculator display.
 
