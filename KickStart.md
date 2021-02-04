@@ -201,7 +201,7 @@ divided by P. As usual, N! denotes the product of the first N positive integers<
 <ins><h3>Find output in 40 seconds when  1<= N <=10<sup>5</sup></h3></ins>   
 <ins><h3>Find output in 40 seconds when  1<= P <=10<sup>5</sup></h3></ins>   
 </p>
-<h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Book%20Reading.py">Book Reading .py</a></h1>
+<h1><a href="https://github.com/tanaykulkarni27/Python-Coding/blob/master/Book%20Reading.cpp">Book Reading .py</a></h1>
 <p>
 Supervin is a librarian handling an ancient book with N pages, numbered from 1 to N.<br>
 Since the book is too old, unfortunately M pages are torn out: page number P<sub>1</sub>, P<sub>2</sub>, ..., P<sub>M</sub>.
