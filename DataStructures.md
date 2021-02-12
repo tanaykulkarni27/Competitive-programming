@@ -5,3 +5,4 @@
 <p>
 Tree Like Data Structure Used for string searching
 </p>
+<hr>
