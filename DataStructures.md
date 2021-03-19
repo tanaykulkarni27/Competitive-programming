@@ -6,3 +6,5 @@
 Tree Like Data Structure Used for string searching
 </p>
 <hr>
+<h1> <a href="https://github.com/tanaykulkarni27/Competitive-programming/blob/master/bst.cpp"> Binary Search Tree Implementation</a></h1>
+
