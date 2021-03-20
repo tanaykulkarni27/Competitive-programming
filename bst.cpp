@@ -65,12 +65,27 @@ struct node* insert(struct node* root,int data){
 
 }
 
-void bfs(stuct node* root){
-	vector<int> queue;
+void bfs(struct node* root,int n){
+	list<struct node*> queue;
+	queue.push_back(root);
+	while(queue.size()>0){
+		struct node* m = queue.front();
+		if(m == NULL)
+			cout<<"NULL ";
+		else
+			cout<< m->val<<" ";
+		queue.remove(m);
+		if(m!=NULL){
+		queue.push_back(m->left);
+		queue.push_back(m->right);
+	}
+	}
 	return;
+
 }
 void solve(){
 	int n = 5;
+	read(n)
 	struct node* root = NULL;
 	for (int i = 0; i < n; ++i)
 	{
@@ -78,8 +93,9 @@ void solve(){
 		cin>>temp;
 		root = insert(root,temp);
 	}
-	bool res = search(root,5);
-	(res)?cout<<"found":cout<<"not found";
+	bfs(root,n);
+	// bool res = search(root,5);
+	// (res)?cout<<"found":cout<<"not found";
 
 }
 
@@ -88,6 +104,7 @@ int main(){
 	return 0;
 }
 /* 
+5
 3
 2
 4
