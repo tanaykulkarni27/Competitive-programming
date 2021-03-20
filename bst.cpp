@@ -24,17 +24,29 @@ struct node* new_node(){
 	nw->right = NULL;
 	return nw;
 }
+
 void dfs(struct node* root){
 	if(root == NULL){
 		cout<<"NULL ";
 		return;
 	}
 	cout<<root->val<<" ";
-	if(root->left != NULL || root->right != NULL){	
-		
+	if(root->left != NULL || root->right != NULL){
 		dfs(root->left);
 		dfs(root->right);
 	}
+}
+bool search(struct node* root,int key){
+	if(root == NULL)
+		return 0;
+	if(root->val == key)
+		return 1;
+	bool a = 0,b=0;
+	if(root->val>key)
+		a = search(root->left,key);
+	else 
+		b = search(root->right,key);
+	return a||b;
 }
 struct node* insert(struct node* root,int data){
 	if(root == NULL){
@@ -52,6 +64,11 @@ struct node* insert(struct node* root,int data){
 	}
 
 }
+
+void bfs(stuct node* root){
+	vector<int> queue;
+	return;
+}
 void solve(){
 	int n = 5;
 	struct node* root = NULL;
@@ -61,8 +78,11 @@ void solve(){
 		cin>>temp;
 		root = insert(root,temp);
 	}
-	dfs(root);
+	bool res = search(root,5);
+	(res)?cout<<"found":cout<<"not found";
+
 }
+
 int main(){
 	solve();
 	return 0;
